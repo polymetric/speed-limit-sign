@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: HighwayGothic;
+    src: url("highway_gothic/HWYGOTH.TTF") format("truetype");
+}
+
+body {
+    /* background-image: url('sign.webp'); */
+}
+
+#sign {
+    margin-top: 18px;
+    margin-left: 70px;
+    width: 320px;
+    height: 440px;
+
+    /* visibility: hidden; */
+
+    background-color: white;
+    color:black;
+    font-family: HighwayGothic;
+    font-weight: bold;
+    text-align: center;
+    font-kerning:normal;
+
+    /* width: 50%; */
+    border-radius: 23px;
+    border-color: black;
+    border-width: 12px;
+    border-style: solid;
+}
+
+#speed-limit {
+    transform:scale(1.15,1);
+    padding-top: 23px;
+    font-size: 92px;
+    line-height: 100px;
+    letter-spacing: 0px;
+}
+
+#number {
+    /* padding-top: -100px; */
+    margin-top: -33px;
+    font-size: 250px;
+}
